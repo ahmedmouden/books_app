@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Attribute\Route;
 
 final class IndexController extends AbstractController
 {
-    // hello is saad 
+    // hello is mouden
     #[Route('/test', name: 'app_index')]
     public function index(): Response
     {
@@ -16,7 +16,7 @@ final class IndexController extends AbstractController
             'controller_name' => 'IndexController',
         ]);
 
-        
+
 
     }
 }
